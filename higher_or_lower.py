@@ -15,7 +15,7 @@ else:
     print("Go Lower")
 
 while(choice != answer):
-    choice = input("Enter a number higher or lower than " + str(number) + ": ")
+    choice = input("Enter a number higher or lower than " + str(choice) + ": ")
     choice = int(choice)
 
     counter = counter + 1
